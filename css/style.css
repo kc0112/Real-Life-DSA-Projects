@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+	color: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	border: 1px solid rgba(0, 0, 0, 0.322);
+	/* border-top: none; */
+	background: linear-gradient(to left, #8942a8, #ba382f);
+	width: 100%;
+	height: 100vh;
+}
+
+/* ================= Container One START ==================================================== */
+.one {
+}
+.part {
+	height: 95%;
+	display: flex;
+}
+.part-1 {
+	width: 30%;
+	height: 100%;
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.part-2 {
+	width: 70%;
+	height: 100%;
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	/* font-size: 5rem; */
+	/* padding: 2rem; */
+}
+
+.section-1 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 10%;
+	font-size: 15rem;
+	border: 2px solid rgba(255, 255, 255, 0.13);
+	font-family: "Amatic SC", cursive;
+	/* background-color: rgba(182, 80, 80, 0.308); */
+	border-radius: 1.5rem;
+	position: relative;
+	top: 3.5rem;
+	/* right: 1rem; */
+	margin-right: 5rem;
+}
+.section-2 {
+	height: 5%;
+	/* border: 1px solid white; */
+	width: 50rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* position: relative; */
+	text-align: right;
+	/* float: right; */
+	/* bottom: 2rem; */
+	margin-right: 6rem;
+	font-family: "Josefin Sans", sans-serif;
+	color: rgba(0, 0, 0, 0.493);
+}
+/* ================= Container One END ==================================================== */
+
+/* ================= Container Two START ==================================================== */
+.two {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	/* border: 1px solid white; */
+}
+.game-title {
+	position: relative;
+	top: 1rem;
+	height: 5%;
+	width: 10%;
+	margin: 0 auto;
+	border: 2px solid rgb(0, 0, 0);
+	/* background-color: linear-gradient(#e66465, #9198e5); */
+	border-right: none;
+	border-left: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Playfair Display", serif;
+	font-size: 3rem;
+}
+.games {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid white; */
+	height: 70%;
+}
+.game {
+	height: 95%;
+	width: 20%;
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* align-items: center; */
+	z-index: 1;
+}
+
+.game-clip {
+	/* position: relative;
+	top: 2rem; */
+	height: 54%;
+	width: 95%;
+	/* border: 1px solid whitesmoke; */
+	/* border-right: 2px solid rgba(169, 169, 169, 0.308); */
+	filter: grayscale(1);
+	cursor: pointer;
+}
+
+.game-clip:hover {
+	filter: grayscale(0);
+}
+
+.name-of-game {
+	height: 10%;
+	width: 95%;
+	/* border: 1px solid whitesmoke; */
+	/* border-right: 2px solid rgba(169, 169, 169, 0.308); */
+	text-align: center;
+	font-family: "Playfair Display", serif;
+}
+
+.info-of-game {
+	height: 60%;
+	width: 90%;
+	position: relative;
+	left: 1rem;
+	bottom: 1rem;
+	/* border: 1px solid whitesmoke; */
+	text-align: left;
+	/* font-family: "Fauna One", serif; */
+}
+
+.game-separator {
+	position: relative;
+	top: 2rem;
+	height: 100%;
+	width: 0.1rem;
+	background-color: rgba(255, 255, 255, 0.144);
+}
+/* ================= Container Two END ==================================================== */
+
+/* ================= Container Three START ==================================================== */
+
+.three {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	/* border: 1px solid white; */
+}
+
+.project-title {
+	position: relative;
+	top: 1rem;
+	height: 5%;
+	width: 20%;
+	margin: 0 auto;
+	border: 2px solid rgb(0, 0, 0);
+	border-left: none;
+	border-right: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Amatic SC", cursive;
+	font-size: 3rem;
+	font-family: "Playfair Display", serif;
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	position: relative;
+	top: 1.5rem;
+}
+
+
+.project {
+	height: 100%;
+	width: 20%;
+	/* border: 1px solid white; */
+
+	position: relative;
+	top: 1rem;
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.project-clip {
+	/* position: relative;
+	top: 2rem; */
+	height: 33%;
+	width: 95%;
+	/* border: 1px solid white; */
+	filter: grayscale(1);
+	cursor: pointer;
+}
+
+/* #testing{
+	height: 45%;
+} */
+
+.project-clip:hover {
+	filter: grayscale(0);
+}
+
+.name-of-project {
+	height: 5%;
+	width: 95%;
+	/* border: 1px solid whitesmoke; */
+	/* border-right: 2px solid rgba(169, 169, 169, 0.308); */
+	text-align: center;
+	font-family: "Playfair Display", serif;
+}
+
+.info-of-project {
+	height: 60%;
+	width: 95%;
+	/* border: 1px solid whitesmoke; */
+	text-align: center;
+}
+
+.project-6,
+.project-7,
+.project-8,
+.project-9,
+.project-10 {
+	height: 95%;
+}
+.project-separator {
+	position: relative;
+	top: 1rem;
+	height: 100%;
+	width: 0.1rem;
+	background-color: rgba(255, 255, 255, 0.144);
+}
+/* ================= Container Three END ==================================================== */
