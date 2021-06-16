@@ -152,7 +152,7 @@ html {
 }
 
 .info-of-game {
-	height: 60%;
+	height: 90%;
 	width: 90%;
 	position: relative;
 	left: 1rem;
@@ -193,9 +193,8 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Amatic SC", cursive;
-	font-size: 3rem;
 	font-family: "Playfair Display", serif;
+	font-size: 3rem;
 }
 
 .projects {
@@ -209,10 +208,8 @@ html {
 
 
 .project {
-	height: 100%;
+	height: 95%;
 	width: 20%;
-	/* border: 1px solid white; */
-
 	position: relative;
 	top: 1rem;
 	/* border: 1px solid white; */
@@ -226,7 +223,7 @@ html {
 .project-clip {
 	/* position: relative;
 	top: 2rem; */
-	height: 33%;
+	height: 54%;
 	width: 95%;
 	/* border: 1px solid white; */
 	filter: grayscale(1);
@@ -242,7 +239,7 @@ html {
 }
 
 .name-of-project {
-	height: 5%;
+	height: 10%;
 	width: 95%;
 	/* border: 1px solid whitesmoke; */
 	/* border-right: 2px solid rgba(169, 169, 169, 0.308); */
@@ -251,19 +248,24 @@ html {
 }
 
 .info-of-project {
-	height: 60%;
-	width: 95%;
+	height: 80%;
+	width: 90%;
+	position: relative;
+	left: 1rem;
+	bottom: 1rem;
+	text-align: left;    
+	/* font-family: "Josefin Sans", sans-serif; */
 	/* border: 1px solid whitesmoke; */
 	/* text-align: center; */
 }
 
-.project-6,
+/* .project-6,
 .project-7,
 .project-8,
 .project-9,
 .project-10 {
 	height: 95%;
-}
+} */
 .project-separator {
 	position: relative;
 	top: 1rem;
