@@ -6,11 +6,16 @@
 }
 
 body {
+	/* overflow: hidden; */
 	font-family: "Josefin Sans", sans-serif;
 }
 
 a {
 	color: black;
+	/* border: 1px solid whitesmoke; */
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
 }
 
 html {
@@ -58,7 +63,7 @@ html {
 	align-items: flex-end;
 	height: 10%;
 	font-size: 15rem;
-	border: 2px solid rgba(255, 255, 255, 0.13);
+	/* border: 2px solid rgba(255, 255, 255, 0.13); */
 	font-family: "Amatic SC", cursive;
 	/* background-color: rgba(182, 80, 80, 0.308); */
 	border-radius: 1.5rem;
@@ -69,8 +74,11 @@ html {
 }
 .section-2 {
 	height: 5%;
-	/* border: 1px solid white; */
-	width: 50rem;
+	border-top: 5px solid rgba(255, 255, 255, 0.096);
+	padding: 1rem;
+	border-radius: 3rem;
+	/* width: 52rem; */
+	width: 55rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -78,9 +86,11 @@ html {
 	text-align: right;
 	/* float: right; */
 	/* bottom: 2rem; */
-	margin-right: 6rem;
+	margin-right: 5.3rem;
 	font-family: "Josefin Sans", sans-serif;
-	color: rgba(0, 0, 0, 0.493);
+	/* color: rgba(0, 0, 0, 0.493); */
+	color: rgba(245, 245, 245, 0.24);
+	/* z-index: 2; */
 }
 /* ================= Container One END ==================================================== */
 
@@ -113,10 +123,10 @@ html {
 	justify-content: center;
 	align-items: center;
 	/* border: 1px solid white; */
-	height: 70%;
+	height: 100%;
 }
 .game {
-	height: 95%;
+	height: 100%;
 	width: 20%;
 	/* border: 1px solid white; */
 	display: flex;
@@ -164,8 +174,8 @@ html {
 
 .game-separator {
 	position: relative;
-	top: 2rem;
-	height: 100%;
+	bottom: 3rem;
+	height: 80%;
 	width: 0.1rem;
 	background-color: rgba(255, 255, 255, 0.144);
 }
@@ -178,13 +188,21 @@ html {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
-	/* border: 1px solid white; */
+	/* border: 1px solid yellow; */
+}
+
+.four {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	/* border: 1px solid yellow; */
 }
 
 .project-title {
 	position: relative;
 	top: 1rem;
-	height: 5%;
+	height: 6%;
 	width: 20%;
 	margin: 0 auto;
 	border: 2px solid rgb(0, 0, 0);
@@ -198,21 +216,21 @@ html {
 }
 
 .projects {
+	/* border: 2px solid rgb(0, 0, 0); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70%;
-	position: relative;
-	top: 1.5rem;
+	height: 100%;
+	/* position: relative;
+	top: 1.5rem; */
 }
 
-
 .project {
-	height: 95%;
+	height: 100%;
 	width: 20%;
-	position: relative;
-	top: 1rem;
-	/* border: 1px solid white; */
+	/* position: relative;
+	top: 1rem; */
+	/* border: 1px solid black; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -253,7 +271,7 @@ html {
 	position: relative;
 	left: 1rem;
 	bottom: 1rem;
-	text-align: left;    
+	text-align: left;
 	/* font-family: "Josefin Sans", sans-serif; */
 	/* border: 1px solid whitesmoke; */
 	/* text-align: center; */
@@ -268,8 +286,8 @@ html {
 } */
 .project-separator {
 	position: relative;
-	top: 1rem;
-	height: 100%;
+	bottom: 2rem;
+	height: 80%;
 	width: 0.1rem;
 	background-color: rgba(255, 255, 255, 0.144);
 }

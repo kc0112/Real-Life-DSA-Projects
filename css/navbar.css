@@ -36,10 +36,12 @@
 	width: 300px;
 	height: 100%;
 	background-color: #262626e1;
+	/* border: 1px solid white; */
 	position: fixed;
 	top: 0;
 	right: -300px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	border-radius: 20% 0 0 60%;
@@ -57,6 +59,7 @@
 
 .nav-item {
 	list-style: none;
+	/* border: 1px solid whitesmoke; */
 	margin: 25px;
 }
 
@@ -101,3 +104,41 @@
 	font-family: "Dosis", sans-serif;
 } */
 /* ================= NAVBAR END ==================================================== */
+
+.icon{
+	/* border: 1px solid white; */
+	list-style: none; 
+	display: flex;
+	justify-content: space-evenly; 
+	align-items: center;
+	width: 40%;
+}
+
+.icon>*{
+	/* color: rgb(17, 17, 17); */
+}
+
+.fab{
+	font-size: 2rem;
+	/* border: 1px solid whitesmoke; */
+	/* display: flex; */
+	/* flex-direction:row;
+	justify-content: center;
+	align-items: center; */
+	/* align-items: center; */
+}
+
+.fa-linkedin-in{
+	color: white;
+	background-color: rgb(0, 73, 168);
+	border: 2px solid rgb(0, 73, 168);
+	border-radius: 5px;
+	padding: 1px;
+}
+.fa-github{
+	color: black;
+	background-color: white;
+	border: 2px solid white;
+	/* padding: 1px; */
+	border-radius: 50%;
+}
